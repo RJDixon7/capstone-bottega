@@ -1,1 +1,22 @@
-{}
+{
+  "name": "ecom-capstone-bottega",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd server && npm install && cd ../client && npm install && npm run build",
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RJDixon7/capstone-bottega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RJDixon7/capstone-bottega/issues"
+  },
+  "homepage": "https://github.com/RJDixon7/capstone-bottega#readme"
+}
